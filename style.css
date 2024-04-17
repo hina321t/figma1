@@ -1,0 +1,295 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1380px;
+    margin: auto; 
+    box-sizing: border-box;
+
+}
+
+.header {
+    width: 100%;
+    min-height: 90px;
+    border-radius: 70px;
+    background-color: #FAFAFA;
+    margin-top: 34px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    /* background-color: rgb(246, 149, 149); */
+    flex-grow: 1;
+    padding-left: 70px;
+
+
+}
+
+.tabs {
+    background-color: #FEFEFF;
+    flex-grow: 2;
+    min-height: 60px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.tabs a,
+.tabs-btn a{
+    text-decoration: none;
+    color: #1F1F1F;
+    font-family: "poopin" sans-serif;
+    font-weight: 400;
+
+}
+
+
+.btn {
+    width: 164px;
+    height: 60px;
+    border: 1px solid #BEBEBE;
+    border-radius: 40px;
+    padding: 15px 35px 15px 35px;
+}
+.home{
+    margin-top: 80px;
+    width: 100%;
+    height: 617px;
+    background: linear-gradient(90deg, #C1DEE8 0%, #FBD9B9 100%);
+    display: flex;
+    border-radius: 14px;
+}
+.input{
+    /* background-color: aqua; */
+    width: 438px;
+    height: 60px;
+    position: relative;
+
+}
+input{
+    border: none;
+    outline: none;
+    width: 76%;
+    position: absolute;
+    top:0;
+    left: 0;
+    bottom: 0;
+    border-radius: 40px;
+     padding-left: 3px;
+}
+/* upar nav ka anchor */
+.tabs-btn ,a{
+    text-decoration: none;
+    padding-right: 28px; 
+}
+
+
+#boton{
+    border: none;
+    outline: none;
+    width: 38%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color:#1F1F1F;
+    color: white;
+    border-radius: 40px;
+    
+    
+}
+/* first media quarie */
+@media only screen and (max-width: 1330px){
+    .container{
+        width: 100%;
+    }
+    .header{
+        flex-direction: column;
+        gap: 1em;
+        padding: 2em
+    }
+    .tabs {
+        width: 90%;
+    }
+    .tab-btns {
+        gap: 1em;
+    }
+}
+
+/* 2nd media quarie */
+
+@media only screen and (max-width: 650px) {
+    .logo {
+        padding-left: 0;
+    }
+
+    .tabs {
+        flex-direction: column;
+        gap: 1.5em;
+        padding: 1em 0;
+    }
+
+    .tab-btns {
+        flex-direction: column;
+        gap: 1.5em;
+
+    }
+
+}
+
+
+.content{
+    padding-left: 30px;
+    padding-bottom: 90px;
+}
+#heading,h1,p ,input{
+    margin-left: 30px;
+    line-height: 2em;
+
+}
+
+
+h6,.step{
+    justify-content: center;
+    text-align: center;
+}
+
+.cards{
+    /* background-color: aqua; */
+ width: 1307px;
+height: 225px;
+top: 1021px;
+left: 66px;
+gap: 0px;
+opacity: 0px;
+display: flex;
+padding-top: 40px;
+justify-content: space-evenly;
+
+}
+.third-hed{
+    padding-top: 10%;
+    display: flex;
+    
+}
+.house{
+    width: 1381px;
+height: 438px;
+top: 1518px;
+left: 30px;
+gap: 0px;
+border-radius: 14px 0px 0px 0px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+display: flex;
+justify-content: space-evenly;
+
+}
+.house img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+ .forthpart,img{
+    
+    box-sizing: border-box;
+    justify-content: center;
+    text-align: center;
+}
+
+.head2{
+width: 497px;
+height: 46px;
+top: 2267px;
+left: 95px;
+gap: 0px;
+opacity: 0px;
+
+}
+.fifth-para{
+    width: 1245px;
+    height: 571;
+    box-sizing: border-box;
+}
+
+.btn-one button{
+width:100px;
+height: 45px;
+   background-color: hsl(0, 0%, 12%);
+   color: #BEBEBE;
+   border-radius: 40px;
+   padding-bottom: 5px;
+   margin: 10px;
+}
+.ful-img{
+    width: 1245px;
+height: 577px;
+top: 2233px;
+left: 97px;
+gap: 0px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+
+}
+.kom{
+    margin-top: 80px;
+    width: 1380px;
+    height:457 px;
+    background: linear-gradient(90deg, #C1DEE8 0%, #FBD9B9 100%);
+    display: flex;
+}
+
+.inpul{
+     /* background-color: aqua;  */
+    width: 438px;
+    height: 60px;
+    position: relative;
+    
+}
+input{
+    border: none;
+    outline: none;
+    width: 76%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    border-radius: 40px;
+}
+
+button{
+    border: none;
+    outline: none;
+    width: 38%; 
+    position: absolute;
+     top: 0; 
+     right: 0; 
+    bottom: 0;
+    background-color: black;
+    color: white; 
+     border-radius: 40px; 
+}
+   
+
+
+
+
+
+    
+    
+    
+
+
+    
+ 
+
+
